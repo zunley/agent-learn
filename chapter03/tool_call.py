@@ -125,7 +125,7 @@ api_key = os.getenv("LLM_API_KEY")
 model = os.getenv("LLM_MODEL")
 if not api_key or not api_url or not model:
    raise RuntimeError(
-        "检查环境变量 LLM_API_URL, LLM_API_KRY, LLM_MODEL"
+        "检查环境变量 LLM_API_URL, LLM_API_KEY, LLM_MODEL"
         )
 #-------------------------------
 
